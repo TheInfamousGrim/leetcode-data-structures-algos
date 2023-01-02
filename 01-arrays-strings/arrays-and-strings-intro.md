@@ -2,7 +2,7 @@
 
 ## Content
 
-1. Two Pointers
+1. [Two Pointers](./01-two-pointers/two-pointers.md)
 2. Sliding Window
 3. Prefix Sum
 4. More Common Patterns
