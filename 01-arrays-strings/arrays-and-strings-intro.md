@@ -3,7 +3,7 @@
 ## Content
 
 1. [Two Pointers](./01-two-pointers/two-pointers.md)
-2. Sliding Window
+2. [Sliding Window](./02-sliding-window/sliding-window.md)
 3. Prefix Sum
 4. More Common Patterns
 5. Arrays and Strings Quiz
