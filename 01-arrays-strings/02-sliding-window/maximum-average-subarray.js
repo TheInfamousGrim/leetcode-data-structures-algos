@@ -9,26 +9,20 @@ const kTwoExample = 1;
 const findMaxAverage = (nums, k) => {
     // set the current total variable
     let currentTotal = 0;
-    // set the current 
-    let currentAverage = 0;
 
     for (let i = 0; i < k; i++) {
         currentTotal += nums[i];
     }
 
-    // Get the average
-    currentAverage = currentTotal / k;
-
-    let answer = currentAverage;
+    let answer = currentTotal;
 
     // Move the window 
     for (let i = k; i < nums.length; i++) {
-        currentAverage = ((k * currentAverage) + nums[i] - nums[i - k]) / k;
-
-        answer = Math.max(answer, currentAverage);
+        currentTotal += nums[i] - nums[i - k];
+        answer = Math.max(answer, currentTotal);
     }
 
-    return answer;
+    return answer / k;
 }
 
 console.log(findMaxAverage(numsExample, kExample));
