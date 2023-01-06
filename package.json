@@ -1,0 +1,27 @@
+{
+  "name": "leetcode-data-structures-algos",
+  "version": "1.0.0",
+  "description": "All the exercises and info for the data structures and algos course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheInfamousGrim/leetcode-data-structures-algos.git"
+  },
+  "author": "George Fincher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheInfamousGrim/leetcode-data-structures-algos/issues"
+  },
+  "homepage": "https://github.com/TheInfamousGrim/leetcode-data-structures-algos#readme",
+  "dependencies": {
+    "eslint-config-wesbos": "^3.2.0"
+  }
+}
