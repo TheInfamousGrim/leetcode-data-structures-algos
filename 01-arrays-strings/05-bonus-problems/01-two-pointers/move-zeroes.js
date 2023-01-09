@@ -24,7 +24,7 @@ const moveZeroes = (nums) => {
             high++;
         } else {
             if (nums[high] !== 0) {
-                let temp = nums[low];
+                const temp = nums[low];
                 nums[low] = nums[high];
                 nums[high] = temp;
                 low++;
@@ -34,4 +34,4 @@ const moveZeroes = (nums) => {
     }
 
     return nums;
-}
+};

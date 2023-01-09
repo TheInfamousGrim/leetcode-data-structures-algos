@@ -1,8 +1,10 @@
-const numsExample = [1,1,1,0,0,0,1,1,1,1,0];
+const numsExample = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0];
 const kExample = 2;
 
 // example inputs two
-const numsTwoExample = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1];
+const numsTwoExample = [
+    0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1,
+];
 const kTwoExample = 3;
 
 const longestOne = (nums, k) => {
@@ -12,7 +14,7 @@ const longestOne = (nums, k) => {
     let currentZeros = 0;
     // Set the current length of the answer
     let answer = 0;
-    
+
     // create the sliding window starting the right pointer at the zero index
     // slide the right pointer to the next index at the end of each loop
     for (let right = 0; right < nums.length; right++) {
@@ -33,7 +35,7 @@ const longestOne = (nums, k) => {
     }
 
     return answer;
-}
+};
 
 console.log(longestOne(numsExample, kExample));
 console.log(longestOne(numsTwoExample, kTwoExample));

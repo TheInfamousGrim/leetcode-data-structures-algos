@@ -1,4 +1,4 @@
-const numsExample = [-3,2,-3,4,2];
+const numsExample = [-3, 2, -3, 4, 2];
 const numsTwoExample = [1, 2];
 const numsThreeExample = [1, -2, -3];
 
@@ -19,7 +19,7 @@ const minStartValue = (nums) => {
     // Prefix sum example = [-3, -1, -4, 0, 2]
 
     return 1 - minVal;
-}
+};
 
 console.log(minStartValue(numsExample));
 console.log(minStartValue(numsTwoExample));
