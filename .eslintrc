@@ -2,6 +2,7 @@
   "extends": ["wesbos"],
   "rules": {
     "no-plusplus": "off",
+    "no-continue": "warn",
     "prettier/prettier": [
       "error",
       {
